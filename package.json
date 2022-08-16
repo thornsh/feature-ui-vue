@@ -6,17 +6,22 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@algolia/client-search": "^4.14.2",
     "@iconify-json/ic": "^1.1.9",
     "@vitejs/plugin-vue": "^3.0.1",
     "@vitejs/plugin-vue-jsx": "^2.0.0",
     "typescript": "^4.7.4",
-    "vite": "^3.0.5"
+    "vite": "^3.0.5",
+    "vitepress": "1.0.0-alpha.5"
   },
   "dependencies": {
     "unocss": "0.44.5",
