@@ -5,7 +5,7 @@ specifiers:
   '@iconify-json/ic': ^1.1.9
   '@vitejs/plugin-vue': ^3.0.1
   '@vitejs/plugin-vue-jsx': ^2.0.0
-  typescript: ^4.7.4
+  typescript: ^5.0.0
   unocss: 0.44.5
   vite: ^3.0.5
   vitepress: 1.0.0-beta.5
@@ -20,7 +20,7 @@ devDependencies:
   '@iconify-json/ic': 1.1.9
   '@vitejs/plugin-vue': 3.0.1_vite@3.0.5+vue@3.2.37
   '@vitejs/plugin-vue-jsx': 2.0.0_vite@3.0.5+vue@3.2.37
-  typescript: 4.7.4
+  typescript: 5.1.6
   vite: 3.0.5
   vitepress: 1.0.0-beta.5_tbpndr44ulefs3hehwpi2mkf2y
 
@@ -2158,9 +2158,9 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
-  /typescript/4.7.4:
-    resolution: {integrity: sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==}
-    engines: {node: '>=4.2.0'}
+  /typescript/5.1.6:
+    resolution: {integrity: sha512-zaWCozRZ6DLEWAWFrVDz1H6FVXzUSfTy5FUMWsQlU8Ym5JP9eO4xkTIROFCQvhQf61z6O/G6ugw3SgAnvvm+HA==}
+    engines: {node: '>=14.17'}
     hasBin: true
     dev: true
 
