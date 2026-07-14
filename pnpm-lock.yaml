@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@algolia/client-search': ^4.14.2
   '@iconify-json/ic': ^1.1.9
-  '@vitejs/plugin-vue': ^3.0.1
+  '@vitejs/plugin-vue': ^6.0.0
   '@vitejs/plugin-vue-jsx': ^2.0.0
   typescript: ^4.7.4
   unocss: 0.44.5
@@ -18,7 +18,7 @@ dependencies:
 devDependencies:
   '@algolia/client-search': 4.14.2
   '@iconify-json/ic': 1.1.9
-  '@vitejs/plugin-vue': 3.0.1_vite@3.0.5+vue@3.2.37
+  '@vitejs/plugin-vue': 6.0.8_vite@3.0.5+vue@3.2.37
   '@vitejs/plugin-vue-jsx': 2.0.0_vite@3.0.5+vue@3.2.37
   typescript: 4.7.4
   vite: 3.0.5
@@ -804,6 +804,10 @@ packages:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
     dev: false
 
+  /@rolldown/pluginutils/1.0.1:
+    resolution: {integrity: sha512-2j9bGt5Jh8hj+vPtgzPtl72j0yRxHAyumoo6TNfAjsLB04UtpSvPbPcDcBMxz7n+9CYB0c1GxQFxYRg2jimqGw==}
+    dev: true
+
   /@rollup/pluginutils/4.2.1:
     resolution: {integrity: sha512-iKnFXr7NkdZAIHiIWE+BX5ULi/ucVFYWD6TbAV+rZctiRTY2PL6tsIKhoIOaoskiWAkgu+VsbXgUVDNLHf+InQ==}
     engines: {node: '>= 8.0.0'}
@@ -968,17 +972,6 @@ packages:
       - supports-color
     dev: true
 
-  /@vitejs/plugin-vue/3.0.1_vite@3.0.5+vue@3.2.37:
-    resolution: {integrity: sha512-Ll9JgxG7ONIz/XZv3dssfoMUDu9qAnlJ+km+pBA0teYSXzwPCIzS/e1bmwNYl5dcQGs677D21amgfYAnzMl17A==}
-    engines: {node: ^14.18.0 || >=16.0.0}
-    peerDependencies:
-      vite: ^3.0.0
-      vue: ^3.2.25
-    dependencies:
-      vite: 3.0.5
-      vue: 3.2.37
-    dev: true
-
   /@vitejs/plugin-vue/4.2.3_v6jephi5mcvi5e46pp5rj2e64i:
     resolution: {integrity: sha512-R6JDUfiZbJA9cMiguQ7jxALsgiprjBeHL5ikpXfJCH62pPHtI+JdJ5xWj6Ev73yXSlYl86+blXn1kZHQ7uElxw==}
     engines: {node: ^14.18.0 || >=16.0.0}
@@ -988,6 +981,18 @@ packages:
     dependencies:
       vite: 4.4.0-beta.3
       vue: 3.3.4
+    dev: true
+
+  /@vitejs/plugin-vue/6.0.8_vite@3.0.5+vue@3.2.37:
+    resolution: {integrity: sha512-0ZjgOg7oO6farnNGup7yvoM/YXZV84OZxHAwtflItNa/6zzQyVb5LNxyea3FEKEX2XlagIKzrlH7wwxkKgtiew==}
+    engines: {node: ^20.19.0 || >=22.12.0}
+    peerDependencies:
+      vite: ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
+      vue: ^3.2.25
+    dependencies:
+      '@rolldown/pluginutils': 1.0.1
+      vite: 3.0.5
+      vue: 3.2.37
     dev: true
 
   /@vue/babel-helper-vue-transform-on/1.0.2:
